@@ -1,0 +1,208 @@
+
+/* things to do 
+    high score 
+    footer with credit 
+    add levels 
+    
+
+*/
+
+html{
+    background-color: lightblue;
+}
+canvas{
+    /* background-color:darkgreen;  */
+    display: block;
+    margin: 1em auto;
+    border: ridge black 7px;
+  
+}
+
+
+#start {
+    color : white;
+    display: block;
+    border: ridge limegreen;
+    background-color: black;
+    margin: auto;
+    width: 7em;
+    padding: .5em 1em;
+    position: relative;
+    top: -36em;
+    left: 0;
+
+
+}
+#start * {
+    margin: .5em 1em; 
+    width: 80%;
+    text-align: center;
+}
+
+
+/* #restart * {
+    margin: .5em 1em; 
+    width: 80%;
+    text-align: center;
+}
+ */
+#restart {
+    display: block;
+    margin: auto;
+    width: 6em;
+    padding: 0 1em;
+    position: relative;
+    top: -55.6em;
+    left: -22em;
+}
+
+
+#lives{
+    font-size: 1.4em;
+    color: red;
+    margin: auto;
+    width: 10em;
+    padding: 0 1em;
+    position: relative;
+    top: -25.5em; /* -27.5em */
+    left: -15em; /* 10.5em */
+}
+
+#score {
+    font-size: 1.4em;
+    display: block;
+    color: red;
+    margin: auto;
+    width: 10em;
+    padding: 0 1em;
+    position: relative;
+    top: 4.5em; /* .7em */
+    left: -15em; /*-7em  */
+
+}
+
+#high_score {
+    font-size: 1.4em;
+    display: block;
+    color: red;
+    margin: auto;
+    width: 10em;
+    padding: 0 1em;
+    position: relative;
+    top: -9.6em; /* .7em */
+    left: -3.5em; /*-7em  */
+
+}
+
+#round {
+    font-size: 1.4em;
+    display: block;
+    color: red;
+    margin: auto;
+    width: 10em;
+    padding: 0 1em;
+    position: relative;
+    top: -28.5em; /* .7em */
+    left: -15em; /*-7em  */
+
+}
+
+#best_round {
+    font-size: 1.4em;
+    display: block;
+    color: red;
+    margin: auto;
+    width: 10em;
+    padding: 0 1em;
+    position: relative;
+    top: -8.5em; /* .7em */
+    left: -9.5em; /*-7em  */
+
+}
+
+#dif_selected{
+    font-size: 1.4em;
+    display: block;
+    color: red;
+    margin: auto;
+    width: 10em;
+    padding: 0 1em;
+    position: relative;
+    top: -28.5em;
+    left: -6em;
+}
+
+#easy {
+    display: block;
+    margin: auto;
+    width: auto;
+    padding: 0 1em;
+    position: relative;
+    top: -49.6em;
+    left: -2em;
+}
+#medium {
+    display: block;
+    margin: auto;
+    width: auto;
+    padding: 0 1em;
+    position: relative;
+    top: -51.05em;
+    left: 3.5em;
+}
+
+#hard {
+    display: block;
+    margin: auto;
+    width: auto;
+    padding: 0 1em;
+    position: relative;
+    top: -52.5em;
+    left: 9em;
+}
+
+#extreme {
+    display: block;
+    margin: auto;
+    width: auto;
+    padding: 0 1em;
+    position: relative;
+    top: -53.95em;
+    left: 14.5em;
+}
+
+
+
+
+#gameover {
+    color : white;
+    display: none;
+    border: ridge limegreen;
+    background-color: black;
+    margin: auto;
+    width: 4.5em;
+    padding: .5em 2em;
+    position: relative;
+    top: -35.5em;
+    left: 0;
+}
+
+footer{
+    background-color: Aquamarine;
+    display: block;
+    margin: auto;
+    max-width: 40em; 
+    padding: 1em;
+    margin: 12em auto; 
+    border-style: ridge;
+    /* position: relative;
+    top: -28em;
+    left: 0em; */
+    
+}
+footer > small > p {
+    margin: 0 auto;
+    max-width: 60%;
+    text-align: center;
+    
+}
